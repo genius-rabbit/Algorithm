@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/31_EUCLID_gcd.dir/main.c.o  -o 31_EUCLID_gcd 
