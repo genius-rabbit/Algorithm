@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/expressions_expand_.dir/main.c.o  -o expressions_expand_ 
