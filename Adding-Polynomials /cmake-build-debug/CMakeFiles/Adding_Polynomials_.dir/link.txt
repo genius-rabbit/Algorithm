@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Adding_Polynomials_.dir/main.c.o  -o Adding_Polynomials_ 
