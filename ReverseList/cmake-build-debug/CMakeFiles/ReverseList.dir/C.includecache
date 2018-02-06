@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/geniusrabbit/home/Algorithm/HexadecimalConvertion/main.c
+/home/geniusrabbit/home/Algorithm/ReverseList/main.c
 stdio.h
--
-malloc.h
 -
 

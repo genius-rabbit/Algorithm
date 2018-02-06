@@ -54,45 +54,45 @@ RM = /home/geniusrabbit/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/geniusrabbit/home/Algorithm/HexadecimalConvertion
+CMAKE_SOURCE_DIR = /home/geniusrabbit/home/Algorithm/ReverseList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/HexadecimalConvertion.dir
+# Target rules for target CMakeFiles/ReverseList.dir
 
 # All Build rule for target.
-CMakeFiles/HexadecimalConvertion.dir/all:
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/depend
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target HexadecimalConvertion"
-.PHONY : CMakeFiles/HexadecimalConvertion.dir/all
+CMakeFiles/ReverseList.dir/all:
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/depend
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ReverseList"
+.PHONY : CMakeFiles/ReverseList.dir/all
 
 # Include target in all.
-all: CMakeFiles/HexadecimalConvertion.dir/all
+all: CMakeFiles/ReverseList.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HexadecimalConvertion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HexadecimalConvertion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/HexadecimalConvertion.dir/rule
+CMakeFiles/ReverseList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ReverseList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ReverseList.dir/rule
 
 # Convenience name for target.
-HexadecimalConvertion: CMakeFiles/HexadecimalConvertion.dir/rule
+ReverseList: CMakeFiles/ReverseList.dir/rule
 
-.PHONY : HexadecimalConvertion
-
-# clean rule for target.
-CMakeFiles/HexadecimalConvertion.dir/clean:
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/clean
-.PHONY : CMakeFiles/HexadecimalConvertion.dir/clean
+.PHONY : ReverseList
 
 # clean rule for target.
-clean: CMakeFiles/HexadecimalConvertion.dir/clean
+CMakeFiles/ReverseList.dir/clean:
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/clean
+.PHONY : CMakeFiles/ReverseList.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ReverseList.dir/clean
 
 .PHONY : clean
 

@@ -48,24 +48,13 @@ RM = /home/geniusrabbit/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/geniusrabbit/home/Algorithm/HexadecimalConvertion
+CMAKE_SOURCE_DIR = /home/geniusrabbit/home/Algorithm/ReverseList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/geniusrabbit/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/geniusrabbit/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug/CMakeFiles /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug/CMakeFiles /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/HexadecimalConvertion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusrabbit/home/Algorithm/ReverseList/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HexadecimalConvertion
+# Target rules for targets named ReverseList
 
 # Build rule for target.
-HexadecimalConvertion: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HexadecimalConvertion
-.PHONY : HexadecimalConvertion
+ReverseList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReverseList
+.PHONY : ReverseList
 
 # fast build rule for target.
-HexadecimalConvertion/fast:
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/build
-.PHONY : HexadecimalConvertion/fast
+ReverseList/fast:
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/build
+.PHONY : ReverseList/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/main.c.o
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/main.c.i
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/HexadecimalConvertion.dir/build.make CMakeFiles/HexadecimalConvertion.dir/main.c.s
+	$(MAKE) -f CMakeFiles/ReverseList.dir/build.make CMakeFiles/ReverseList.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... HexadecimalConvertion"
+	@echo "... edit_cache"
+	@echo "... ReverseList"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

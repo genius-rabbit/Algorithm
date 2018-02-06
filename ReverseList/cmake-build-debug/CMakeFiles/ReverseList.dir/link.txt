@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ReverseList.dir/main.c.o  -o ReverseList 
